@@ -1,0 +1,52 @@
+h5 {
+    text-align: left;
+}
+
+.hourly-info {
+    width: 380px;
+    /* background-color: lightblue; */
+    min-height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #eee;
+    box-shadow: 2px 2px 5px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.hourly-item div {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border-radius: 10px;
+}
+
+
+
+.hourly-info .carousel-indicators {
+    margin-bottom: 0;
+}
+
+.hourly-info .carousel-indicators button {
+    margin: 0 3px;
+    background-color: darkblue;
+    
+}
+
+.hourly-info .carousel-control-prev
+.carousel-control-prev-icon {
+    background-color: darkblue;
+    width: 20px;
+    border-radius: 5px;
+}
+
+.hourly-info .carousel-control-next
+.carousel-control-next-icon {
+    background-color: darkblue;
+    width: 20px;
+    border-radius: 5px;
+}
